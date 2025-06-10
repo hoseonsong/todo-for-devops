@@ -39,7 +39,7 @@ jobs:
       - name: Create deployment package
         run: | # <-- 여기에 'pipe' (|) 를 사용합니다.
           tar -czf deploy.tar.gz .next node_modules package.json
-          echo 'CI 까지 완성되었어요.. CD는 나중에...'
+          echo "CI 까지 완성되었어요.. CD는 나중에..."
 
 #      - name: Transfer package to Azure VM
 #        uses: appleboy/scp-action@master
