@@ -1,0 +1,3 @@
+docker {
+  "extends": "next/core-web-vitals"
+}
