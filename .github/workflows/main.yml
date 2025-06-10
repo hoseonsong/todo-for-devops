@@ -30,8 +30,8 @@ jobs:
       - name: Install dependencies and Test
         run: |
           npm install
-#          npm run lint
           npm run test
+#          npm run lint  test 전체 lint 돌려야 하는데 Next.js ESLint plugin ㅇ
 
       - name: Build Application
         run: npm run build
