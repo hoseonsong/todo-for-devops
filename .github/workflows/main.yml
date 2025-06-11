@@ -2,7 +2,7 @@ name: 🚀 Deploy to Azure App Service (Docker Hub)
 
 on:
   push:
-    branches: [docker-ci-cd-04]
+    branches: [main]
 
 jobs:
   deploy:
